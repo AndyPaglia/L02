@@ -2,10 +2,10 @@
 L02 - CapstoneProject - Can we detect the Fake  Music generator from the  description of the music?
 
 CODE WORKFLOW:
-To make this code work, the things to check are the paths to the folders.
-The code takes the files from a folder called L02CapstoneProject, that is saved on
+To make this code work, the first thing to check are the paths to the folders.
+The code takes the files from a specific folder that is saved on
 GoogleDrive. This is why we have to mount GoogleDrive in GoogleColab in every
-code.
+code. So, once the directories are the right ones, the code will work.
 The workflow to follow, starting from the full FakeMusicCaps dataset, is this one:
 1. DataSetReductionFakeMusicCaps: used to reduce the dataset folder
 FakeMusicCaps for running the next code without problems inherent to
