@@ -1,0 +1,30 @@
+lp-music-caps
+  dataset
+  demo
+  exp (same as lp-music-caps folder) -->
+    pretrain -->
+      lp_music_caps --> last.pth
+    supervised -->
+      gt --> last.pth
+    transfer -->
+      lp_music_caps -->
+        hparams
+        last.pth
+
+  lpmc -->
+    music_captioning -->
+      exp -->
+        pretrain -->
+          hparams
+          results
+        supervised -->
+          gt --> 
+            hparams
+            results
+        transfer -->
+          lp_mhusic_caps -->
+            hparams
+            last.pth
+            results
+      model
+      dataset
